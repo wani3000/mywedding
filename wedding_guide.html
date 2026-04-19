@@ -10,16 +10,16 @@
     font-family: -apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
     background: #fff;
     color: #111;
-    font-size: 14px;
-    line-height: 1.6;
+    font-size: 17px;
+    line-height: 1.75;
   }
 
   header {
     padding: 24px 16px 16px;
     border-bottom: 2px solid #111;
   }
-  header h1 { font-size: 20px; font-weight: 700; }
-  header p { font-size: 13px; color: #555; margin-top: 4px; }
+  header h1 { font-size: 28px; font-weight: 700; line-height: 1.35; }
+  header p { font-size: 17px; color: #555; margin-top: 8px; }
 
   nav {
     display: flex;
@@ -35,8 +35,8 @@
   nav::-webkit-scrollbar { display: none; }
   nav a {
     flex-shrink: 0;
-    padding: 10px 14px;
-    font-size: 13px;
+    padding: 14px 16px;
+    font-size: 16px;
     color: #333;
     text-decoration: none;
     white-space: nowrap;
@@ -48,36 +48,36 @@
     max-width: 700px;
   }
   h2 {
-    font-size: 15px;
+    font-size: 22px;
     font-weight: 700;
     margin-bottom: 14px;
     padding-bottom: 8px;
     border-bottom: 1px solid #111;
   }
 
-  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  table { width: 100%; border-collapse: collapse; font-size: 16px; }
   th {
     background: #111;
     color: #fff;
-    padding: 9px 10px;
+    padding: 12px 12px;
     text-align: left;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 16px;
   }
   td {
-    padding: 9px 10px;
+    padding: 12px;
     border-bottom: 1px solid #e8e8e8;
     vertical-align: top;
   }
   tr:last-child td { border-bottom: none; }
   tr:nth-child(even) td { background: #f7f7f7; }
 
-  .time { font-size: 14px; font-weight: 700; white-space: nowrap; width: 58px; }
+  .time { font-size: 16px; font-weight: 700; white-space: nowrap; width: 72px; }
   .time.prep { color: #888; font-weight: 400; }
   .badge {
     display: inline-block;
-    font-size: 10px;
-    padding: 1px 6px;
+    font-size: 16px;
+    padding: 3px 8px;
     border: 1px solid #111;
     border-radius: 2px;
     color: #111;
@@ -89,9 +89,9 @@
 
   ul.plain { list-style: none; }
   ul.plain li {
-    padding: 8px 0;
+    padding: 10px 0;
     border-bottom: 1px solid #eee;
-    font-size: 13px;
+    font-size: 16px;
     display: flex;
     gap: 8px;
   }
@@ -100,20 +100,20 @@
 
   .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 20px; }
   .card { border: 1px solid #ddd; padding: 12px; border-radius: 3px; }
-  .card .role { font-size: 11px; color: #777; margin-bottom: 2px; }
-  .card .name { font-size: 16px; font-weight: 700; }
+  .card .role { font-size: 16px; color: #777; margin-bottom: 4px; }
+  .card .name { font-size: 20px; font-weight: 700; }
 
   .notice {
     background: #fff8f8;
     border-left: 3px solid #c0392b;
     padding: 12px 14px;
-    font-size: 13px;
+    font-size: 16px;
     margin-top: 16px;
     color: #333;
   }
   .red { color: #c0392b; font-weight: 600; }
 
-  footer { padding: 20px 16px; font-size: 12px; color: #aaa; text-align: center; border-top: 1px solid #eee; }
+  footer { padding: 20px 16px; font-size: 16px; color: #777; text-align: center; border-top: 1px solid #eee; }
 
   @media (max-width: 360px) {
     .grid2 { grid-template-columns: 1fr; }
@@ -141,7 +141,7 @@
   <h2>⏱ 당일 전체 타임라인</h2>
   <table>
     <thead>
-      <tr><th style="width:62px">시간</th><th>내용</th></tr>
+      <tr><th style="width:84px">시간</th><th>내용</th></tr>
     </thead>
     <tbody>
       <tr><td class="time prep">11:00</td><td>신랑·신부 도착</td></tr>
@@ -164,7 +164,7 @@
       <tr>
         <td class="time">12:56</td>
         <td>⑪ 축가 — 박찬호 외 3명<br>
-          <span style="font-size:12px;color:#555">· One Short Day / Can't Help Falling in Love (MR)</span></td>
+          <span style="font-size:16px;color:#555">· One Short Day / Can't Help Falling in Love (MR)</span></td>
       </tr>
       <tr><td class="time">13:03</td><td>⑫ 부모님 + 하객 감사 인사</td></tr>
       <tr><td class="time">13:07</td><td>⑬ 행진 + 플라워샤워</td></tr>
@@ -175,7 +175,7 @@
       <tr>
         <td class="time prep">13:10</td>
         <td>원판 및 연출 촬영<br>
-          <span style="font-size:12px;color:#555">주례 → 양가부모님 → 양가친척 → 신랑측 직계 → 신부측 직계 → 친구·직장동료 → 신랑·신부</span></td>
+          <span style="font-size:16px;color:#555">주례 → 양가부모님 → 양가친척 → 신랑측 직계 → 신부측 직계 → 친구·직장동료 → 신랑·신부</span></td>
       </tr>
       <tr><td class="time prep">13:40</td><td>피로연 인사 (환복 후 6인 테이블 인사)</td></tr>
       <tr><td class="time prep">14:00~</td><td>정산 — B2층 정산실</td></tr>
@@ -230,16 +230,16 @@
   <table>
     <tbody>
       <tr>
-        <td style="width:90px;color:#555;font-size:12px">셔틀버스</td>
-        <td><strong>2호선 삼성역 ③번 출구</strong><br><span style="font-size:12px;color:#888">3호선 학여울역은 운행 안 함</span></td>
+        <td style="width:110px;color:#555;font-size:16px">셔틀버스</td>
+        <td><strong>2호선 삼성역 ③번 출구</strong><br><span style="font-size:16px;color:#888">3호선 학여울역은 운행 안 함</span></td>
       </tr>
-      <tr><td style="color:#555;font-size:12px">하객 주차</td><td><strong>2시간 무료</strong></td></tr>
-      <tr><td style="color:#555;font-size:12px">혼주 차량</td><td><strong>종일 무료</strong> — 웨딩카 포함 6대 (본 건물 주차 시)</td></tr>
+      <tr><td style="color:#555;font-size:16px">하객 주차</td><td><strong>2시간 무료</strong></td></tr>
+      <tr><td style="color:#555;font-size:16px">혼주 차량</td><td><strong>종일 무료</strong> — 웨딩카 포함 6대 (본 건물 주차 시)</td></tr>
       <tr>
-        <td style="color:#555;font-size:12px">대형버스</td>
+        <td style="color:#555;font-size:16px">대형버스</td>
         <td>도착 시 주차요원이 인근 주차장 안내<br>하객은 웨딩홀 앞 승하차</td>
       </tr>
-      <tr><td style="color:#555;font-size:12px">버스 주차비</td><td>선결제 후 영수증 지참 시 환급</td></tr>
+      <tr><td style="color:#555;font-size:16px">버스 주차비</td><td>선결제 후 영수증 지참 시 환급</td></tr>
     </tbody>
   </table>
 </section>
@@ -249,9 +249,9 @@
   <h2>💳 정산</h2>
   <table>
     <tbody>
-      <tr><td style="width:90px;color:#555;font-size:12px">계산서</td><td>통합 / 신랑측 / 신부측 각각 발행</td></tr>
-      <tr><td style="color:#555;font-size:12px">장소</td><td><strong>B2층 정산실</strong> — 혼주 식사 종료 후</td></tr>
-      <tr><td style="color:#555;font-size:12px">결제수단</td><td>카드·현금 모두 가능 (금액 차이 없음)</td></tr>
+      <tr><td style="width:110px;color:#555;font-size:16px">계산서</td><td>통합 / 신랑측 / 신부측 각각 발행</td></tr>
+      <tr><td style="color:#555;font-size:16px">장소</td><td><strong>B2층 정산실</strong> — 혼주 식사 종료 후</td></tr>
+      <tr><td style="color:#555;font-size:16px">결제수단</td><td>카드·현금 모두 가능 (금액 차이 없음)</td></tr>
     </tbody>
   </table>
 </section>
