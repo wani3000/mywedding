@@ -203,6 +203,63 @@
     color: #1f4fbf;
     font-weight: 700;
   }
+  .prep-checklist {
+    display: grid;
+    gap: 12px;
+    margin: 16px 0 20px;
+  }
+  .checklist-card {
+    border: 1px solid #e7e2d8;
+    background: linear-gradient(180deg, #fffdfa 0%, #fffaf4 100%);
+    border-radius: 14px;
+    padding: 16px;
+  }
+  .checklist-card h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+  .checklist-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 10px;
+  }
+  .checklist-list li {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  .checklist-box {
+    flex: 0 0 18px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #b7aa92;
+    border-radius: 4px;
+    margin-top: 4px;
+    background: #fff;
+  }
+  .checklist-box.done {
+    background: #1f4fbf;
+    border-color: #1f4fbf;
+    position: relative;
+  }
+  .checklist-box.done::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 0px;
+    width: 5px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  .checklist-item {
+    flex: 1;
+  }
 
   footer { padding: 20px 16px; font-size: 16px; color: #777; text-align: center; border-top: 1px solid #eee; }
 
@@ -311,6 +368,54 @@
 <section id="prep-notice">
   <div class="notice" style="background:#f6fbef;border-left-color:#5f8a33;color:#35561b">
     <strong>※ 2주전 확정된 보증인원과 플라워샤워 색상, 선택사항등 추가 주문건은 추후 변경이 불가합니다.</strong>
+  </div>
+</section>
+
+<section id="prep-checklist">
+  <h2>📝 식 전 준비 체크리스트</h2>
+  <div class="prep-checklist">
+    <div class="checklist-card">
+      <h3>보내야 하는 파일</h3>
+      <ul class="checklist-list">
+        <li><span class="checklist-box done"></span><span class="checklist-item">식순 (사회자 대본)</span></li>
+        <li><span class="checklist-box done"></span><span class="checklist-item">식전 영상</span></li>
+        <li><span class="checklist-box"></span><span>축가MR</span></li>
+        <li><span class="checklist-box done"></span><span class="checklist-item">성혼선언문</span></li>
+        <li><span class="checklist-box done"></span><span class="checklist-item">주례사 낭독문</span></li>
+        <li><span class="checklist-box"></span><span class="checklist-item">축사 낭독문</span></li>
+        <li><span class="checklist-box"></span><span>모든 파일 <strong>4/28 (화)</strong>까지 <strong><a href="mailto:daechi@noblevalenti.co.kr">daechi@noblevalenti.co.kr</a></strong> 발송</span></li>
+      </ul>
+    </div>
+
+    <div class="checklist-card">
+      <h3>인원 · 진행 확정</h3>
+      <ul class="checklist-list">
+        <li><span class="checklist-box"></span><span>보증 인원 <strong>300명</strong> 최종 확정 여부 확인</span></li>
+        <li><span class="checklist-box"></span><span>플라워샤워 색상 및 선택사항 최종 확정</span></li>
+        <li><span class="checklist-box"></span><span>주례, 사회자, 축가자, 축사자 최종 명단 및 연락처 확인</span></li>
+        <li><span class="checklist-box"></span><span>개식선언~행진까지 <strong>30분 이내</strong> 진행 흐름 재확인</span></li>
+      </ul>
+    </div>
+
+    <div class="checklist-card">
+      <h3>당일 가져갈 물품</h3>
+      <ul class="checklist-list">
+        <li><span class="checklist-box"></span><span>의류&amp;액자&amp;포토테이블 사진 당일 지참</span></li>
+        <li><span class="checklist-box"></span><span>포토테이블 사진 <strong>5*7 inch size 5장</strong> 준비</span></li>
+        <li><span class="checklist-box done"></span><span>대형 액자 <strong>1개</strong> 준비 여부 확인</span></li>
+        <li><span class="checklist-box"></span><span>축가 기타 연주 시 앰프연결선 지참</span></li>
+      </ul>
+    </div>
+
+    <div class="checklist-card">
+      <h3>도착 전 확인</h3>
+      <ul class="checklist-list">
+        <li><span class="checklist-box"></span><span>신랑·신부, 혼주, 직계가족 <strong>1시간 30분 전</strong> 도착</span></li>
+        <li><span class="checklist-box"></span><span>접수 담당 <strong>웨딩 시작 1시간 전</strong> 도착</span></li>
+        <li><span class="checklist-box"></span><span>주례, 사회자, 축가자 <strong>웨딩 시작 30분 전</strong> 도착</span></li>
+        <li><span class="checklist-box"></span><span>웨딩홀 오픈 시간 <strong>오전 8시 30분</strong> 확인</span></li>
+      </ul>
+    </div>
   </div>
 </section>
 
