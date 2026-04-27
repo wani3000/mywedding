@@ -6,6 +6,7 @@
 
 - `wedding_guide.html`: 실제 안내 페이지
 - `index.html`: GitHub에서 바로 열 수 있도록 `wedding_guide.html`로 연결하는 진입점
+- `HANDOFF.md`: 다른 에이전트/다른 데스크탑에서 이어서 작업할 수 있도록 정리한 인수인계 문서
 
 ## 로컬에서 열기
 
