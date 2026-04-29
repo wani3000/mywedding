@@ -9,6 +9,7 @@
 - 배포: GitHub Pages
 - 메인 페이지: `wedding_guide.html`
 - 진입점: `index.html` -> `wedding_guide.html`로 리다이렉트
+- 현재 헤더 날짜 표기: `2026년 5월 2일 (토) · 12:30 · Noble Valenti 대치점`
 
 ## 파일 역할
 
@@ -92,8 +93,8 @@
 - `축가MR` 체크됨
 - `성혼선언문` 체크됨
 - `주례사 낭독문` 체크됨
-- `축사 낭독문` 미체크
-- `모든 파일 4/28 (화)까지 메일 발송` 미체크
+- `축사 낭독문` 체크됨
+- `모든 파일 4/28 (화)까지 메일 발송` 체크됨
 
 당일 가져갈 물품:
 
@@ -114,6 +115,12 @@
 
 - `진행 (주최측 준비)`
 - `식 20분전~10분전까지 웨딩홀 내 중앙 스크린에서 상영`
+
+### 구글드라이브 링크
+
+체크리스트 바로 아래에 아래 링크가 들어가 있음:
+
+- `https://drive.google.com/drive/folders/1xRWqU5iYAFhElWR9rhWtlbEtwyFr7dua?usp=drive_link`
 
 ### 준비사항 본문 원칙
 
@@ -154,6 +161,15 @@
 - 같은 줄에 `연주요청 하지 않음` 추가
 - 부모님 감사 인사 구간의 포옹 대상 순서 수정 완료
 
+### 최근 식순/오디오 메모 반영
+
+최근 다른 에이전트가 추가한 내용:
+
+- 화동 입장 줄 아래 `배경음악.mp3`
+- 축사 줄 아래 `피아노반주 예정`
+
+둘 다 `식순` 탭의 타임라인 보조 문구로 들어가 있음.
+
 주의:
 
 - 사용자는 “형식보다 내용 일치”를 더 중요하게 확인했음
@@ -163,11 +179,13 @@
 
 최근 커밋 흐름:
 
+- `0ca61b6` Update prep checklist links and completion
+- `fca8a80` Style schedule audio notes in blue bold
+- `e7b16f4` Update 2026 wedding schedule and script audio notes
 - `625c06c` Update checklist and script cue notes
 - `b43711e` Adjust timeline for longer speech
 - `7cbd755` Refine prep wording and intro video note
 - `04fa75c` Add prep checklist completion states
-- `68dbf99` Fix script parent greeting details
 
 이전 작업 중 탭 구조가 여러 번 깨졌던 적이 있음.
 특히 `준비사항`과 `대본` 섹션 닫는 태그 문제로 탭 내용이 사라진 적이 있었음.
@@ -218,4 +236,5 @@
 - `식순` 탭에서 축사 시간이 `2분 30초`인지
 - `폐회`가 `13:00`인지
 - `축가MR` 체크 상태가 유지되는지
-
+- `축사 낭독문`, `모든 파일 발송`이 체크 상태인지
+- 화동 `배경음악.mp3`, 축사 `피아노반주 예정`이 보이는지
